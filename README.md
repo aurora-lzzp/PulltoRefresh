@@ -1,5 +1,5 @@
 # PulltoRefresh 下拉刷新
-Copy Right &copy; 2016 Aurora Studio.
+Copyright &copy; 2016 Aurora Studio.
 
 ## Desicription 介绍
 
