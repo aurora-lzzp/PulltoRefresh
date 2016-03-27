@@ -3,13 +3,13 @@ Copy Right &copy; 2016 Aurora Studio.
 
 ## Desicription 介绍
 
-This is a simple CustomControl to enable pull to refresh on Universal Windows apps.
+This is a simple CustomControl to enable pull to refresh on Universal Windows apps.   
 这是适用于通用 Windows 平台的简易下拉刷新控件。
 
-Based on ScrollViewer, auto detect and enable, and it can be force enabled.
+Based on ScrollViewer, auto detect and enable, and it can be force enabled.   
 基于 SrollViewer 修改而来，自动检测是否支持(使用触摸屏或移动设备就开启)，也可以强制开启。
 
-This is the very first version, and will be continuously updated
+This is the very first version, and will be continuously updated   
 这是最初版本，将会持续更新
 
 ## Features 特性
@@ -22,7 +22,7 @@ This is the very first version, and will be continuously updated
 
 ## Usage 用法
 
-When you use it in xaml, first add this project as a reference, and write this in xaml:
+When you use it in xaml, first add this project as a reference, and write this in xaml:   
 在一般的项目里，先添加引用，然后在 Page 里添加这条:
 
     <Page
@@ -32,7 +32,7 @@ When you use it in xaml, first add this project as a reference, and write this i
         >
     
 
-then when you want to use it, write this:
+then when you want to use it, write this:   
 当你想使用这个控件的时候，使用下面的方式:
 
     <ptr:PulltoRefresh VerticalAlignment=...
@@ -41,8 +41,8 @@ then when you want to use it, write this:
         <!-- Content Here -->
     </ptr:PulltoRefresh>
 
-*ForceEnabled 为 true 时强制开启下拉刷新*
+*ForceEnabled 为 true 时强制开启下拉刷新*   
 *IndicatorDisplayMode 为枚举值 Header, Overlay 两者之一*
 
-**We are looking forward to your tests and feedbacks**
+**We are looking forward to your tests and feedbacks**   
 **我们欢迎你来进行测试**
