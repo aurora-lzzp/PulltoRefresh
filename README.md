@@ -41,6 +41,12 @@ then when you want to use it, write this:
         <!-- Content Here -->
     </ptr:PulltoRefresh>
 
+When you do a refresh action, you will trigger a event called RefreshStart, add a EventHandler to it, and write your refresh code.   
+当你做出下拉的动作并释放以后，会触发 RefreshStart 事件，你可以在这里添加相关逻辑。
+
+When your refresh method ended,do not forget to call the sender's RefreshComplete() method to finish.   
+你需要的刷新过程完成之后，别忘了调用 RefreshComplete() 来结束这次刷新过程.  
+
 *ForceEnabled 为 true 时强制开启下拉刷新*   
 *IndicatorDisplayMode 为枚举值 Header, Overlay 两者之一*
 
